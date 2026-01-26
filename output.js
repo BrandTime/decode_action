@@ -1,183 +1,747 @@
-//Fri Jan 23 2026 04:55:31 GMT+0000 (Coordinated Universal Time)
+//Mon Jan 26 2026 05:41:22 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-process.env.ksmaxreward = 500000;
-process.env.ksTaskNum = 10;
-console.log("免root一键抓包快手极速版\n（需要卸载快手极速版安装这个版本，登录成功后退出软件重新打开会自动弹窗cookie和salt）：https://pan.quark.cn/s/5995097eccc5\n" + "静态代理ip最低2.5元一个月：http://www.gzsk5.com/#/register?invitation=hnking2&shareid=516 （多号必须使用避免黑号）\n" + "脚本详细使用教程：https://mp.weixin.qq.com/s/9QhhcY7Yrsz32nnELhgA3A");
-console.log("脚本默认ad广，饭补，宝箱，搜索全跑。请自行设置环境变量！！！！！！");
-var NwiyTF, NBW39d, _JOzpI, Xn1qyj, p0fErk9, b9WNrPx, i39XFE, lR5A6GP, Z1aarJ4;
-const fAHtuF = [0x0, 0x1, 0x8, 0xff, "length", "undefined", 0x3f, 0x6, "fromCodePoint", 0x7, 0xc, "push", 0x5b, 0x1fff, 0x58, 0xd, 0xe];
-function RJvtp5t(NwiyTF) {
-  var NBW39d = "2jGr<bsDP]gWe7K*qolQ/?)xU9.43!&n^mI#Y[RHJ;fSVwvF_zC$}\"N,k{+ydB(i=:p1@>~508LX%E`O|MaZActuT6h",
-    _JOzpI,
-    Xn1qyj,
-    p0fErk9,
-    b9WNrPx,
-    i39XFE,
-    lR5A6GP,
-    Z1aarJ4;
-  cZDkGw(_JOzpI = "" + (NwiyTF || ""), Xn1qyj = _JOzpI.length, p0fErk9 = [], b9WNrPx = fAHtuF[0x0], i39XFE = fAHtuF[0x0], lR5A6GP = -fAHtuF[0x1]);
-  for (Z1aarJ4 = fAHtuF[0x0]; Z1aarJ4 < Xn1qyj; Z1aarJ4++) {
-    var RJvtp5t = NBW39d.indexOf(_JOzpI[Z1aarJ4]);
-    if (RJvtp5t === -fAHtuF[0x1]) {
+const $ = new Env('种豆得豆收取好友营养液');
+var vTtnM0g = Object['\x64\x65\x66\x69\x6e\x65\x50\x72\x6f\x70\x65\x72\x74\x79'],
+  xM8OSc,
+  q6SAtC,
+  lN3YKTA,
+  OUqBGjz,
+  n5cPa1,
+  _wRI7FD,
+  q9WytXY,
+  gT5Reg;
+function TRoiWb() {
+  return globalThis;
+}
+function yPMRAMr() {
+  return global;
+}
+function WUTmnt() {
+  return window;
+}
+function Sh5pe94() {
+  return new Function("return this")();
+}
+function JVoj7H2(vTtnM0g = [TRoiWb, yPMRAMr, WUTmnt, Sh5pe94], cAHUAr9, _i8j53z = [], xM8OSc, q6SAtC) {
+  cAHUAr9 = cAHUAr9;
+  try {
+    cAHUAr9 = Object
+    _i8j53z["push"](''["__proto__"].constructor["name"])
+  } catch (e) {}
+  OrmbU7o: for (xM8OSc = 0; xM8OSc < vTtnM0g["length"]; xM8OSc++) try {
+    cAHUAr9 = vTtnM0g[xM8OSc]();
+    for (q6SAtC = 0x0; q6SAtC < _i8j53z.length; q6SAtC++) {
+      if (typeof cAHUAr9[_i8j53z[q6SAtC]] === "undefined") {
+        continue OrmbU7o;
+      }
+    }
+    return cAHUAr9;
+  } catch (e) {}
+  return cAHUAr9 || this;
+}
+xM8OSc = JVoj7H2() || {}
+q6SAtC = xM8OSc.TextDecoder
+lN3YKTA = xM8OSc.Uint8Array
+OUqBGjz = xM8OSc.Buffer
+n5cPa1 = xM8OSc.String || String
+_wRI7FD = xM8OSc["Array"] || Array
+function cOkEFTK(...vTtnM0g) {
+  return vTtnM0g[vTtnM0g["length"] - 1];
+}
+function ke6BZJ(NC37KUM, vTtnM0g) {
+  switch (gT5Reg) {
+    case -0x22:
+      return !NC37KUM;
+    case 4:
+      return NC37KUM + vTtnM0g;
+  }
+}
+function wNOeuTO(NC37KUM) {
+  return cOkEFTK(NC37KUM = gT5Reg + (gT5Reg = NC37KUM, 0), NC37KUM);
+}
+gT5Reg = gT5Reg;
+const jXUrSVP = require('./jdCookie'),
+  PNg_Nxv = require('./utils/Rebels_sendJDNotify'),
+  RnVko1 = require('./utils/Rebels_jdCommon'),
+  {
+    ["H5st"]: pDpxSk
+  } = require('./utils/Rebels_H'),
+  fbms_KH = (process["env"]["jd_plantBean_notify"] || process["env"]["jd_plantBean_Notify"]) === "true";
+let KmbUDj1 = '',
+  v3UkQBf = Object["keys"](jXUrSVP)["map"](NC37KUM => jXUrSVP[NC37KUM])["filter"](NC37KUM => NC37KUM);
+if (ke6BZJ(v3UkQBf[0x0], gT5Reg = -0x22)) {
+  $["msg"]($["name"], "【提示】请先获取Cookie")
+  process["exit"](1)
+}
+ke6BZJ((async () => {
+  for (let OUqBGjz = cOkEFTK(console["log"](`==========${$["name"]}变量开启状态==========`), console["log"](`活动入口: [APP-我的-种豆得豆]`), console["log"](`代理开关: [${RnVko1["getProxyStatus"]()}]`), console["log"](`==========${$["name"]}变量状态结束==========`), console["log"](''), PNg_Nxv["config"]({
+    ["title"]: $["name"]
+  }), 0); OUqBGjz < v3UkQBf["length"]; OUqBGjz++) {
+    if (cOkEFTK($["index"] = ke6BZJ(OUqBGjz, 1, wNOeuTO(0x4)), KmbUDj1 = v3UkQBf[OUqBGjz], RnVko1["setCookie"](KmbUDj1), $["UserName"] = decodeURIComponent(RnVko1["getCookieValue"](KmbUDj1, "pt_pin")), $.UA = RnVko1["genUA"]($["UserName"]), $["message"] = PNg_Nxv["create"]($["index"], $["UserName"]), $["nickName"] = '', $["title"] = `【账号${$["index"]}】${$["UserName"]}：`, await FrfDfN(), await $["wait"](3000), RnVko1["unsetCookie"](), $["runEnd"])) {
+      break;
+    }
+  }
+  const TRoiWb = PNg_Nxv["getMessage"]();
+  if (TRoiWb) {
+    var yPMRAMr = [" ➜ "];
+    if (cOkEFTK(console["log"](`\n📣 运行结果\n${TRoiWb["replace"](/：/g, yPMRAMr[0x0])}`), fbms_KH)) {
+      PNg_Nxv["appendContent"](`\n`)
+      await PNg_Nxv["push"]()
+    }
+  }
+})()["catch"](NC37KUM => $["logErr"](NC37KUM))["finally"](() => $["done"]()), gT5Reg = -0x22);
+async function FrfDfN() {
+  try {
+    const OUqBGjz = await RnVko1["getLoginStatus"](KmbUDj1);
+    if (ke6BZJ(OUqBGjz, wNOeuTO(-34)) && typeof OUqBGjz === "boolean") {
+      return cOkEFTK(console["log"](`${$["title"]}账号无效`), undefined);
+    }
+    if (cOkEFTK($["skipRun"] = false, $["stopRun"] = false, $["plantBeanIndex"] = '', await gc6Ris("plantBeanIndex"), $["plantBeanIndex"])) {
+      const TRoiWb = $["plantBeanIndex"]?.["roundList"] || [];
+      if (cOkEFTK(TRoiWb["forEach"](vTtnM0g => {
+        const {
+          ["roundId"]: cAHUAr9,
+          ["dateDesc"]: xM8OSc
+        } = vTtnM0g;
+        if (xM8OSc["includes"]("本期")) {
+          $["currentRoundId"] = cAHUAr9;
+        }
+      }), await $["wait"](500), $["plantFriendList"] = '', await gc6Ris("plantFriendList"), $["stopRun"])) {
+        return;
+      }
+      if ($["plantFriendList"]) {
+        if ($["plantFriendList"] && $["plantFriendList"]?.["tips"]) {
+          var jXUrSVP = {
+            ["S9VYqSt"]: "title"
+          };
+          return cOkEFTK(console["log"](`${$[jXUrSVP.S9VYqSt]}今日收取好友营养液已达上限`), undefined);
+        }
+        if ($["plantFriendList"] && $["plantFriendList"]?.["friendInfoList"] && $["plantFriendList"]?.["friendInfoList"]?.["length"] > 0x0) {
+          let v3UkQBf = new Date(ke6BZJ(new Date()["getTime"]() + new Date()["getTimezoneOffset"]() * 0x3c * 1000, 28800000, wNOeuTO(0x4))),
+            sd3_c23 = cOkEFTK($["plantNickName"] = '', false);
+          for (let iv3S_r8 of $["plantFriendList"]?.["friendInfoList"]) {
+            if (cOkEFTK($["plantNickName"] = iv3S_r8["plantNickName"], ke6BZJ(iv3S_r8["nutrCount"], wNOeuTO(-34)))) {
+              continue;
+            }
+            if (new Date(v3UkQBf)["getHours"]() >= 20) {
+              if (cOkEFTK(sd3_c23 = true, iv3S_r8["nutrCount"]) >= 0x1) {
+                if (cOkEFTK($["paradiseUuid"] = iv3S_r8?.["paradiseUuid"], await gc6Ris("collectUserNutr"), await $["wait"](3000), $["skipRun"] || $["stopRun"])) {
+                  break;
+                }
+              }
+            } else {
+              var yTXhkj = "getHours";
+              if (new Date(v3UkQBf)[yTXhkj]() >= 0x12) {
+                if (cOkEFTK(sd3_c23 = true, iv3S_r8["nutrCount"]) >= 2) {
+                  if (cOkEFTK($["paradiseUuid"] = iv3S_r8?.["paradiseUuid"], await gc6Ris("collectUserNutr"), await $["wait"](3000), $["skipRun"] || $["stopRun"])) {
+                    break;
+                  }
+                } else {
+                  console["log"](`${$["title"]}好友[${$["plantNickName"]}]的营养液不足2瓶，暂不收取`)
+                }
+              } else {
+                if (cOkEFTK(sd3_c23 = true, iv3S_r8["nutrCount"]) >= 3) {
+                  if (cOkEFTK($["paradiseUuid"] = iv3S_r8?.["paradiseUuid"], await gc6Ris("collectUserNutr"), await $["wait"](3000), $["skipRun"] || $["stopRun"])) {
+                    break;
+                  }
+                } else {
+                  console["log"](`${$["title"]}好友[${$["plantNickName"]}]的营养液不足3瓶，暂不收取`);
+                }
+              }
+            }
+            if (($["skipRun"] || $["stopRun"]) && 1) {
+              break;
+            }
+            await $["wait"](0x3e8);
+          }
+          if (ke6BZJ(sd3_c23, gT5Reg = -34) && 1) {
+            var tx2U4F = "log";
+            console[tx2U4F](`${$["title"]}暂时没有好友有可收取的营养液`);
+          }
+        } else {
+          console["log"](`${$["title"]}暂时没有好友有可收取的营养液`);
+        }
+      }
+      if (cOkEFTK(await $["wait"](500), $["plantBeanIndex"] = '', await gc6Ris("plantBeanIndex"), $["plantBeanIndex"]?.["roundList"])) {
+        var TL7ChiH = ["roundList"];
+        for (let wpRA_Y of $["plantBeanIndex"][TL7ChiH[0x0]]) {
+          const {
+            ["roundId"]: dd33W47,
+            ["dateDesc"]: RZDdwm
+          } = wpRA_Y;
+          if (RZDdwm["includes"]("本期") && 1) {
+            var xGi5Q7 = ["bubbleInfos"];
+            const Hv6lWQk = cOkEFTK($["currentRoundId"] = dd33W47, wpRA_Y);
+            if (Hv6lWQk?.["bubbleInfos"] && Hv6lWQk?.[xGi5Q7[0x0]]["length"] && 1) {
+              for (let o1p5Oqr of Hv6lWQk["bubbleInfos"]) {
+                if (cOkEFTK($["taskbubbleInfo"] = o1p5Oqr, $["nutrientsType"] = o1p5Oqr?.["nutrientsType"], await gc6Ris("cultureBean"), await $["wait"](3000), $["stopRun"])) {
+                  break;
+                }
+              }
+            }
+          }
+        }
+      }
+      await $["wait"](0x7d0);
+    }
+  } catch (e) {
+    console["log"](`❌ 脚本运行遇到了错误\n${e}`);
+  }
+}
+async function vUIimY(vTtnM0g, cAHUAr9) {
+  try {
+    let OUqBGjz = '';
+    switch (vTtnM0g) {
+      case "plantBeanIndex":
+        if (cAHUAr9["code"] === '\u0030' && cAHUAr9["data"] && 1) {
+          var n5cPa1 = {
+            p48c1K: "plantBeanIndex"
+          };
+          $[n5cPa1["p48c1K"]] = cAHUAr9["data"];
+        } else {
+          if (cOkEFTK(OUqBGjz = RnVko1["getErrorMsg"](cAHUAr9), console["log"](`${$["title"]}种豆得豆失败：${OUqBGjz}`), OUqBGjz?.["includes"]('火爆') || OUqBGjz?.["includes"]("此路拥堵"))) {
+            $["stopRun"] = true;
+          }
+        }
+        break;
+      case "collectUserNutr":
+        if (cAHUAr9["code"] === "0" && cAHUAr9["data"]) {
+          if (cAHUAr9["data"]["collectResult"] === '1') {
+            if (cAHUAr9["data"]["collectNutrRewards"] > 0x0) {
+              var e49t4W = {
+                IPvH1S: "title"
+              };
+              console["log"](`${$[e49t4W.IPvH1S]}成功帮[${$["plantNickName"]}]收取[${cAHUAr9["data"]["friendNutrRewards"]}]瓶营养液,获得[${cAHUAr9["data"]["collectNutrRewards"]}]瓶营养液🍼`);
+            } else {
+              var gT5Reg = "data";
+              console["log"](`${$["title"]}成功帮[${$["plantNickName"]}]收取[${cAHUAr9[gT5Reg]["friendNutrRewards"]}]瓶营养液,未获得营养液`);
+            }
+          } else {
+            var TRoiWb = ["collectResult"];
+            if (cAHUAr9["data"][TRoiWb[0]] === '3') {
+              console["log"](`${$["title"]}今日帮助[${$["plantNickName"]}]收取次数已达上限，明天再来帮忙吧`)
+              $["skipRun"] = true
+            } else {
+              console["log"](`${$["title"]}[${$["plantNickName"]}]${cAHUAr9["data"]["collectMsg"]}`)
+            }
+          }
+        } else {
+          if (cOkEFTK(OUqBGjz = RnVko1["getErrorMsg"](cAHUAr9), console["log"](`${$["title"]}收取失败：${OUqBGjz}`), OUqBGjz?.["includes"]('火爆') || OUqBGjz?.["includes"]("此路拥堵"))) {
+            $["stopRun"] = true;
+          }
+        }
+        break;
+      case "plantFriendList":
+        if (cAHUAr9["code"] === "0" && cAHUAr9["data"]) {
+          $["plantFriendList"] = cAHUAr9["data"];
+        } else {
+          if (cOkEFTK(OUqBGjz = RnVko1["getErrorMsg"](cAHUAr9), console["log"](`${$["title"]}查询收取好友失败：${OUqBGjz}`), OUqBGjz?.["includes"]('火爆') || OUqBGjz?.["includes"]("此路拥堵"))) {
+            $["stopRun"] = true;
+          }
+        }
+        break;
+      case "cultureBean":
+        if (cAHUAr9["code"] === "0" && cAHUAr9["data"]) {
+          var ke6BZJ = {
+            oZmcgH: "growth"
+          };
+          console["log"](`${$["title"]}收集[${$["taskbubbleInfo"]["name"]}]营养液x${$["taskbubbleInfo"]["nutrNum"]}🍼，共计[${cAHUAr9["data"][ke6BZJ.oZmcgH]}]瓶营养液🍼`)
+        } else {
+          if (cOkEFTK(OUqBGjz = RnVko1["getErrorMsg"](cAHUAr9), console["log"](`${$["title"]}收取失败：${OUqBGjz}`), OUqBGjz?.["includes"]('火爆') || OUqBGjz?.["includes"]("此路拥堵"))) {
+            $["stopRun"] = true;
+          }
+        }
+    }
+  } catch (e) {
+    console["log"](`❌ 未能正确处理 ${vTtnM0g} 请求响应 ${e["message"] || e}`);
+  }
+}
+async function gc6Ris(vTtnM0g) {
+  if ($["runEnd"]) {
+    return;
+  }
+  let lN3YKTA = '',
+    OUqBGjz = null,
+    n5cPa1 = null,
+    _wRI7FD = "GET",
+    q9WytXY = {},
+    kAe_Gc = {};
+  switch (vTtnM0g) {
+    case "plantBeanIndex":
+      kAe_Gc = {
+        ["appId"]: "d246a",
+        ["functionId"]: "plantBeanIndex",
+        ["appid"]: "signed_wh5",
+        ["clientVersion"]: RnVko1["getLatestAppVersion"](),
+        ["client"]: "apple",
+        ["body"]: {
+          ["monitor_source"]: "plant_m_plant_index",
+          ["monitor_refer"]: '',
+          ["version"]: "9.2.4.3"
+        },
+        ["ua"]: $.UA,
+        t: true
+      }
+      q9WytXY = await pDpxSk["getH5st"](kAe_Gc)
+      lN3YKTA = "https://api.m.jd.com/client.action?functionId=plantBeanIndex"
+      n5cPa1 = Object["assign"]({}, q9WytXY["paramsData"], {})
+      break;
+    case "collectUserNutr":
+      kAe_Gc = {
+        ["appId"]: "14357",
+        ["functionId"]: "collectUserNutr",
+        ["appid"]: "signed_wh5",
+        ["clientVersion"]: RnVko1["getLatestAppVersion"](),
+        ["client"]: "apple",
+        ["body"]: {
+          ["roundId"]: $["currentRoundId"],
+          ["paradiseUuid"]: $["paradiseUuid"],
+          ["monitor_source"]: "plant_m_plant_index",
+          ["monitor_refer"]: "collectUserNutr",
+          ["version"]: "9.2.4.3"
+        },
+        ["ua"]: $["UA"],
+        t: true
+      }
+      q9WytXY = await pDpxSk["getH5st"](kAe_Gc)
+      lN3YKTA = "https://api.m.jd.com/client.action?functionId=collectUserNutr"
+      n5cPa1 = Object["assign"]({}, q9WytXY["paramsData"], {})
+      break;
+    case "cultureBean":
+      kAe_Gc = {
+        ["appId"]: "6a216",
+        ["functionId"]: "cultureBean",
+        ["appid"]: "signed_wh5",
+        ["clientVersion"]: RnVko1["getLatestAppVersion"](),
+        ["client"]: "apple",
+        ["body"]: {
+          ["roundId"]: $["currentRoundId"],
+          ["nutrientsType"]: $["nutrientsType"],
+          ["monitor_source"]: "plant_m_plant_index",
+          ["monitor_refer"]: "plant_index",
+          ["version"]: "9.2.4.3"
+        },
+        ua: $.UA,
+        t: true
+      }
+      q9WytXY = await pDpxSk["getH5st"](kAe_Gc)
+      lN3YKTA = "https://api.m.jd.com/client.action?functionId=cultureBean"
+      n5cPa1 = Object["assign"]({}, q9WytXY["paramsData"], {})
+      break;
+    case "plantFriendList":
+      lN3YKTA = "https://api.m.jd.com/client.action?functionId=plantFriendList"
+      n5cPa1 = {
+        ["appid"]: "signed_wh5",
+        ["functionId"]: "plantFriendList",
+        ["body"]: JSON["stringify"]({
+          ["pageNum"]: '\u0031',
+          ["monitor_source"]: "plant_m_plant_index",
+          ["monitor_refer"]: "plantFriendList",
+          ["version"]: "9.2.4.3"
+        })
+      }
+      break;
+    default:
+      console["log"](`❌ 未知请求 ${vTtnM0g}`);
+      return;
+  }
+  const e49t4W = {};
+  if (OUqBGjz) {
+    Object["assign"](OUqBGjz, e49t4W);
+  }
+  if (n5cPa1) {
+    Object["assign"](n5cPa1, e49t4W);
+  }
+  const TRoiWb = {
+    ["url"]: lN3YKTA,
+    ["method"]: _wRI7FD,
+    ["headers"]: {
+      ["Accept"]: "*/*",
+      ["Origin"]: "https://plantearth.m.jd.com",
+      ["Accept-Encoding"]: "gzip,deflate,br",
+      ["User-Agent"]: $["UA"],
+      ["Accept-Language"]: "zh-CN,zh-Hans;q=0.9",
+      ["Referer"]: "https://plantearth.m.jd.com/",
+      ["Cookie"]: KmbUDj1
+    },
+    ["params"]: n5cPa1,
+    ["data"]: OUqBGjz,
+    ["timeout"]: 0x7530,
+    ["httpsTlsOptions"]: {
+      ["secureProtocol"]: "TLSv1_2_method",
+      ["ciphers"]: "ECDHE-RSA-AES256-GCM-SHA384"
+    }
+  };
+  if (_wRI7FD === "GET") {
+    delete (delete TRoiWb["data"], TRoiWb["headers"]["Content-Type"]);
+  }
+  const yPMRAMr = 1;
+  let WUTmnt = 0,
+    Sh5pe94 = null;
+  while (WUTmnt < yPMRAMr) {
+    if (WUTmnt > 0 && 1) {
+      await $["wait"](1000);
+    }
+    const cOkEFTK = await RnVko1["request"](TRoiWb);
+    if (ke6BZJ(cOkEFTK["success"], wNOeuTO(-34))) {
+      Sh5pe94 = `🚫 ${vTtnM0g} 请求失败 ➜ ${cOkEFTK["error"]}`
+      WUTmnt++
       continue;
     }
-    if (lR5A6GP < fAHtuF[0x0]) {
-      lR5A6GP = RJvtp5t;
-    } else {
-      cZDkGw(lR5A6GP += RJvtp5t * fAHtuF[0xc], b9WNrPx |= lR5A6GP << i39XFE, (lR5A6GP & fAHtuF[0xd]) > fAHtuF[0xe] ? i39XFE += fAHtuF[0xf] : i39XFE += fAHtuF[0x10]);
-      do {
-        cZDkGw(p0fErk9.push(b9WNrPx & fAHtuF[0x3]), b9WNrPx >>= fAHtuF[0x2], i39XFE -= fAHtuF[0x2]);
-      } while (i39XFE > fAHtuF[0x9]);
-      lR5A6GP = -fAHtuF[0x1];
+    if (ke6BZJ(cOkEFTK["data"], gT5Reg = -34)) {
+      Sh5pe94 = `🚫 ${vTtnM0g} 请求失败 ➜ 无响应数据`
+      WUTmnt++
+      continue;
+    }
+    await vUIimY(vTtnM0g, cOkEFTK["data"]);
+    break;
+  }
+  if (WUTmnt >= yPMRAMr) {
+    console["log"](Sh5pe94);
+  }
+}
+function Env(t, e) {
+  "undefined" != typeof process && JSON.stringify(process.env).indexOf("GITHUB") > -1 && process.exit(0);
+  class s {
+    constructor(t) {
+      this.env = t;
+    }
+    send(t, e = "GET") {
+      t = "string" == typeof t ? {
+        url: t
+      } : t;
+      let s = this.get;
+      return "POST" === e && (s = this.post), new Promise((e, i) => {
+        s.call(this, t, (t, s, r) => {
+          t ? i(t) : e(s);
+        });
+      });
+    }
+    get(t) {
+      return this.send.call(this.env, t);
+    }
+    post(t) {
+      return this.send.call(this.env, t, "POST");
     }
   }
-  if (lR5A6GP > -fAHtuF[0x1]) {
-    p0fErk9.push((b9WNrPx | lR5A6GP << i39XFE) & fAHtuF[0x3]);
-  }
-  return JbRrbS(p0fErk9);
-}
-function WdjQzK(_JOzpI) {
-  if (typeof NwiyTF[_JOzpI] === fAHtuF[0x5]) {
-    return NwiyTF[_JOzpI] = RJvtp5t(NBW39d[_JOzpI]);
-  }
-  return NwiyTF[_JOzpI];
-}
-cZDkGw(NwiyTF = {}, NBW39d = ["Z9P&j,(+u=D/#.r9y:m4jON|r{F3&zJlz2", "35b}\"\"C&z*Clz<~n`9i}W>?DaNe_5K>&nIzs{AsY\"7e7[q>[r]G", ":N:^.N1xqe%j7qRQB8(3Ayx\";(D:L>u)>3=sQ", "[db}*CN+Fi90.K(x", "4@u]HBn;w?P44R7Q(yVLv+*F2pi~5y]n~$^s*(wQr", "{:$^eCgPU7@p$R2lliB,u>@eC]Ekp[I[7@.X35#7&l34*RRRi]d!=,%+Z{U/j", "P@;^3#i7=\"x4RBu)z54!Nk+&ykiik*c)wo|]YB*;ko7xi+j[oNr", "q**%10wj<Q:}_4_Ii3U`~(Ec)+0P3yFH,:~8lRpe_p;oX.(&us;$,+(L9ou9j", "O8r!\"X=LgKGXw9jU", "&@4^bL77SoQ+c|DlJLk]uC$7N+8!!q}3", "h(+$7>Y}<{\"3W.T#l!}\"F~Bx_]>9j", "W[$EeCNJiPegP*C3g5}!sL&=jiQ,t>:YB5j", "s.%CcmW7r]@y,a3&zwo44#6O[Qmy#+h){wzs|%%I_?BKr.l3*[7gPL^Ufo", "SJR3f#!D?N!I6Y2Ut:q4/C*Q`lgX$Z^xD<OzJij#s", "q]Xb]_QD#NJUeZB#ev{^1\"2", "h3gX*Z(eBPDOH.r&5(@g!JS7ik:pq*r&W[$Emzs~QQ[_bqe/", "fLl$Iy~sSP)/ZGMHC{~z95o7{/q$$aoJ!@bCJFQjrek%R~Gl4NVn<,`sM*C", "PL5}8O(G|*$82", "_r!g$a7j", "D!Uz~I)tc7<G\"0v.S$7}8Y@@^pQ0.M}4U5/D", "CnLPH88j?+&>6<N;YN%!lY^&%:s:35|JrSxm;|H{l*oUE<;nY5FzbL{7)7J", "}e>C8>C}E(/nj", "Kv&395O!Kp`i8dtIo5n<Yk<lWKX|ICq.]#\"DACn;lN`L20QIqejsGAO;X/x$j", "liP$c5ODVWZLlMmUinr^B\".Yu=Wqf9[9", "cyKn9`b7](@\"T*/4Xy`%9Zs}lN%LnC^lZ2", "FN^&yH6oni\"|`~n!XyN,`{3G", "_/f0I8QF7ye+05DQa$2X%ZJGCil&8<uq0@Z.|Z=lINrNIzX.WxVLeC2", "UdL^W{c{pi6Y/FJ.?L/E>Y&U!ylU6duI", "8w40(L~@F*z|T|>[`(C!qYUPI{.+]0YnreX^EZ_vQQ;o\"qioM_[<>_a}`k\"", "qd9&:0s+EP,DnaEQ|KVLjY~}ae~9AFqJY5eLstKG", "7dF<X(wFV:XEZG%H", "l^lXm8PtCdsBR7{f&]/LbM~e?7xnmq};+:|]H8YLlN^", "A$GX?{E!El40w7OHp(g^u>nM4y2&V5y;D#eLt{?!d(8\"xCX.%yZbNHDQ%k_", "uo%Lx{.UY]Pq?dmUE3RDZZI}wKaE9Y8n_s]`NE*;vPSy_ZOHrz6ND,t}6K", "pfW!&cw7aQ*@fBB!UdNzbL.P*?eaV4=U8:N,UZv+i*", "]J&nEZ4\"m*N9Fa0Qi_)mUZ{;o*hMB<", "SoaPwiPYu+gqUF@&T_K%TF_|Ge#(05i&se@b", "R{%!3`79piR", "is6NUR^U6//+Z~@n{_&n,a=LvPU/*.Rn=3i<~dj;r", "hoPml{2", "f!6N7YL&s=P]g[D9j{D%w[)}F*cl35VQH55%Mm>!%o70j", "vszsQy#i`l03qye", "6(UN,[/Pi\"sNGM&!oev<<_o9J:Q0Yq6x~2", "dyx8A}zF%k51_<)3Jof$<O2", "/$xNK_H{LoK[}4oJcwB<R|&l}{G0QrW//NFsX>?\"^*)%#5s", "Hr*m0YaJwk8PBdSQ<LmsTFlG", "`(1bN\"ZD(lcd_*e", "c~>5zA>7re$%%<yYb@%!DM`IcN_U\"_kI0N(8?", "@o]`{A6{4o03>d2YO$DN%L|J&*C|55plCr,]`L,78:=8lG?I6Wv<", "J@8s;X7F]+(3er", "s!U&Ptzj", ")^K%UZ]QD+&%#Fl/B3%EVXLL~+_%w_SQH5=]U`e}?Q", "h(BgG0kv1=I0KKf.$s*mtC5{x+M9WR2x9N]0j0/YW(CWH~,I!Lwn2Lxj", "IJ/L9yu#W:t{bY;9+(MP", ";.>,$XU&Cd}l)[A3HLO<z@(edPQ71~oJBrX^UF|U|l.02", "vnfX2HyFKl", "u(c.bM=v^pqX{dpoBJVg.`s&P:rF]_e/9J1b6`y7od$i=4D9VIG", "rzMP8_X{QQ&U!0z4,5mX68bQmNEY([<nY*%Cf@*M:]", "8$JX+\"*ja]A^(9&!hwU]F[0&1Qpz(9A3YS2]4{}&wK[", "F.E53JC}eywUM_u;/$c58Y8j", ":nQEt5LJo*:#P*7", "&d9N*Y2", "z5E.pYDD+Kx%++jUOIVg+v~sJo\"Dh9tJxv5<kaqUT/=jbqP9~_[g", "9:&z\"[U&+o$?+[1l~Nxz`RZ;CddD347R[sr", "4@t3yETt^etet>%.h2", "Noqsyv0UQNT9^ypoVer", "./2sC$vlbg,8~K?4J$x&pMteGeG09B{#VJ;$(Evele~EeZg.", "y_Rz+I}JjdB96<3x0nz4U52", "gi$^6ZJJb", "T:f0*(2", "blUs48l}8(lgBd!x", "6/WE(E_lc=f?FGR9j^O8/J;j", "N:Ms[cLt9o", "^S]`O(@e)=k~(9~l", "sLmX>_SQ;oC>H4!#M8(D#c;F(yz#HRY&J.n%gM?jeoh9jApUD590B+!;D,{#j", "$sj$a%$D/]q[_r", "k:}g.c2", "O3KnYJfJ=]J|_q0l\"_j$%ZzF:NH8]0aI)Jr", "l{^47ZdG", "S@YnjYQ#]:p8H4DUV(dnVkED$==K~9GS5N=$68I&|\"3o5.ifrlmXq}gU?=$", "NI=NfN;>vkMW*a<UT/$^Gd&}G{3g\"<4Y${%EmN87!lO\"j", "^d>5O%LJ(kZb>YP", "?5<b#83tqpZ1H+.;p]u}DI/L(k;", "}_Z.e_mD^l0ij", "O(l4_$+&Me", "&LZ^=L<YoiU0V0<nC]]&r0^UTo[8WH\"4!J`DFi77~QD&JZ)Imxd!aC2", "qJ8sD,3Pp])[@4n[zNr^G\"]Xqe", "/N2X@I{7*e~^z<io", "g!{s?ZQ\"Y7o0*yx;C$t%45xj#d4$|#]", "JrQ^9cgv2pr0Sr", "qN/!>_yXc7:~z92!rz\"nCA=|.K\"U35U3{x0NoM9F]gG0}*t3|/x<", "+oVg+E@|M*OWxR7", "=@%5!JJJ|*:\"o_1lwe$EM(oj", "Z95z^J&}$]MzC[`JR@@nJix;cQ<$zqjUw{)zx}<l^p`LE_!#<SI$=Y5$yW3", "yN,]4{.t$]=<SK{#Z9sDZC$D~+{8dyx!Lo~5lZk}Blp~R9kfE/a$mJ$j", "x$)nJaqUs", "D@%!`(j9x7(jE_NJ\"/x}OR;7oe.09Yn&is$PX>W7lNzW3r", ">r~D!#fll*", "~Ni]|YO>!?jmZ~>[T(Uz>0N+=*cLb[g", ";_!D}a>xGNl02*gRbdj", "4]W!zk%vfyYIAZZ4S$9$G0.Pv\"D:vzifg5BDX>C+go;%>9bUv5MP9Z_vI];gj", "jJO%y+AvEKk}eyX9Ts08h`i>$]ra<r", "T8YL}a!D$Qm4Y59x)e>gv@$#SPwzy~JQ;JH}iO[#D", "QQtcj#MKR]q|b/\"$!8", "9QM#r`/K", "RpsDDgH", "/u]Wq+(!I]DxKSI", "%T>PD", "HLG(", "NQG(a/2y7dG?_2lv3+7PPK2Z~aAb1Lu[NBvhm/U3|f/c6?Y_\"C#\"M1W+2lxiQF3C96`z2hgJ", "ELp+VsvE|", "vj0d:6hCZa1nr", "FBDK&oS+6dk,(J(`^},w6.*E,=pV2X3#@*H=^2|/pw^%Nr`E/^!^3.u;ob@8|MJNBBa5hM/agwCU7T?Iz_/TFoH,ZaJ(EM;N\"}6iIn$3&,R<L@7a@*=FAP=rQluds}|Njlr5*Pm_2qrpV%}a{g=FAPZx9+"]);
-function aKHHnW() {
-  var NwiyTF = [function () {
-      return globalThis;
-    }, function () {
-      return global;
-    }, function () {
-      return window;
-    }, function () {
-      return new Function("return this")();
-    }],
-    NBW39d,
-    _JOzpI,
-    Xn1qyj;
-  cZDkGw(NBW39d = 0x0, _JOzpI = []);
-  try {
-    cZDkGw(NBW39d = Object, _JOzpI[fAHtuF[0xb]]("".__proto__.constructor.name));
-  } catch (p0fErk9) {}
-  nfXESz: for (Xn1qyj = fAHtuF[0x0]; Xn1qyj < NwiyTF[fAHtuF[0x4]]; Xn1qyj++) try {
-    var b9WNrPx;
-    NBW39d = NwiyTF[Xn1qyj]();
-    for (b9WNrPx = fAHtuF[0x0]; b9WNrPx < _JOzpI[fAHtuF[0x4]]; b9WNrPx++) if (typeof NBW39d[_JOzpI[b9WNrPx]] === fAHtuF[0x5]) {
-      continue nfXESz;
+  return new class {
+    constructor(t, e) {
+      this.name = t, this.http = new s(this), this.data = null, this.dataFile = "box.dat", this.logs = [], this.isMute = false, this.isNeedRewrite = false, this.logSeparator = "\n", this.startTime = new Date().getTime(), Object.assign(this, e), this.log("", `🔔${this.name}, 开始!`);
     }
-    return NBW39d;
-  } catch (p0fErk9) {}
-  return NBW39d || this;
-}
-cZDkGw(_JOzpI = aKHHnW() || {}, Xn1qyj = _JOzpI.TextDecoder, p0fErk9 = _JOzpI.Uint8Array, b9WNrPx = _JOzpI.Buffer, i39XFE = _JOzpI.String || String, lR5A6GP = _JOzpI.Array || Array, Z1aarJ4 = function () {
-  var NwiyTF = new lR5A6GP(0x80),
-    NBW39d,
-    _JOzpI;
-  cZDkGw(NBW39d = i39XFE[fAHtuF[0x8]] || i39XFE.fromCharCode, _JOzpI = []);
-  return function (Xn1qyj) {
-    var p0fErk9, b9WNrPx, lR5A6GP, Z1aarJ4;
-    cZDkGw(b9WNrPx = 0x0, lR5A6GP = Xn1qyj[fAHtuF[0x4]], _JOzpI[fAHtuF[0x4]] = fAHtuF[0x0]);
-    for (Z1aarJ4 = fAHtuF[0x0]; Z1aarJ4 < lR5A6GP;) {
-      cZDkGw(b9WNrPx = Xn1qyj[Z1aarJ4++], b9WNrPx <= 0x7f ? p0fErk9 = b9WNrPx : b9WNrPx <= 0xdf ? p0fErk9 = (b9WNrPx & 0x1f) << fAHtuF[0x7] | Xn1qyj[Z1aarJ4++] & fAHtuF[0x6] : b9WNrPx <= 0xef ? p0fErk9 = (b9WNrPx & 0xf) << fAHtuF[0xa] | (Xn1qyj[Z1aarJ4++] & fAHtuF[0x6]) << fAHtuF[0x7] | Xn1qyj[Z1aarJ4++] & fAHtuF[0x6] : i39XFE[fAHtuF[0x8]] ? p0fErk9 = (b9WNrPx & fAHtuF[0x9]) << 0x12 | (Xn1qyj[Z1aarJ4++] & fAHtuF[0x6]) << fAHtuF[0xa] | (Xn1qyj[Z1aarJ4++] & fAHtuF[0x6]) << fAHtuF[0x7] | Xn1qyj[Z1aarJ4++] & fAHtuF[0x6] : (p0fErk9 = fAHtuF[0x6], Z1aarJ4 += 0x3), _JOzpI[fAHtuF[0xb]](NwiyTF[p0fErk9] || (NwiyTF[p0fErk9] = NBW39d(p0fErk9))));
+    isNode() {
+      return "undefined" != typeof module && !!module.exports;
     }
-    return _JOzpI.join("");
-  };
-}());
-function JbRrbS(NwiyTF) {
-  return typeof Xn1qyj !== fAHtuF[0x5] && Xn1qyj ? new Xn1qyj().decode(new p0fErk9(NwiyTF)) : typeof b9WNrPx !== fAHtuF[0x5] && b9WNrPx ? b9WNrPx.from(NwiyTF).toString("utf-8") : Z1aarJ4(NwiyTF);
-}
-function uS5OnkS(_JOzpI, Xn1qyj = fAHtuF[0x1]) {
-  function p0fErk9(_JOzpI) {
-    var Xn1qyj = "H8KspTaLiFRqIYJQPmXkMdO9;2/U<6!cD>:h(y5*$EGu3?tvxBl1,wW}[n4j_S~^=]%@|{AgzC+VN#r&o`0Zf.\"b7e)",
-      p0fErk9,
-      b9WNrPx,
-      NwiyTF,
-      NBW39d,
-      i39XFE,
-      lR5A6GP,
-      Z1aarJ4;
-    cZDkGw(p0fErk9 = "" + (_JOzpI || ""), b9WNrPx = p0fErk9.length, NwiyTF = [], NBW39d = fAHtuF[0x0], i39XFE = fAHtuF[0x0], lR5A6GP = -fAHtuF[0x1]);
-    for (Z1aarJ4 = fAHtuF[0x0]; Z1aarJ4 < b9WNrPx; Z1aarJ4++) {
-      var RJvtp5t = Xn1qyj.indexOf(p0fErk9[Z1aarJ4]);
-      if (RJvtp5t === -fAHtuF[0x1]) {
-        continue;
-      }
-      if (lR5A6GP < fAHtuF[0x0]) {
-        lR5A6GP = RJvtp5t;
-      } else {
-        cZDkGw(lR5A6GP += RJvtp5t * fAHtuF[0xc], NBW39d |= lR5A6GP << i39XFE, (lR5A6GP & fAHtuF[0xd]) > fAHtuF[0xe] ? i39XFE += fAHtuF[0xf] : i39XFE += fAHtuF[0x10]);
-        do {
-          cZDkGw(NwiyTF.push(NBW39d & fAHtuF[0x3]), NBW39d >>= fAHtuF[0x2], i39XFE -= fAHtuF[0x2]);
-        } while (i39XFE > fAHtuF[0x9]);
-        lR5A6GP = -fAHtuF[0x1];
+    isQuanX() {
+      return "undefined" != typeof $task;
+    }
+    isSurge() {
+      return "undefined" != typeof $httpClient && "undefined" == typeof $loon;
+    }
+    isLoon() {
+      return "undefined" != typeof $loon;
+    }
+    toObj(t, e = null) {
+      try {
+        return JSON.parse(t);
+      } catch {
+        return e;
       }
     }
-    if (lR5A6GP > -fAHtuF[0x1]) {
-      NwiyTF.push((NBW39d | lR5A6GP << i39XFE) & fAHtuF[0x3]);
-    }
-    return JbRrbS(NwiyTF);
-  }
-  function b9WNrPx(_JOzpI) {
-    if (typeof NwiyTF[_JOzpI] === fAHtuF[0x5]) {
-      return NwiyTF[_JOzpI] = p0fErk9(NBW39d[_JOzpI]);
-    }
-    return NwiyTF[_JOzpI];
-  }
-  Object[b9WNrPx(0x67)](_JOzpI, b9WNrPx(0x68), {
-    [b9WNrPx(0x69)]: Xn1qyj,
-    [b9WNrPx(0x6a)]: !0x1
-  });
-  return _JOzpI;
-}
-function cZDkGw() {
-  cZDkGw = function () {};
-}
-!(async () => {
-  function _JOzpI(_JOzpI) {
-    var Xn1qyj = "SrJTF=O|+w(~X)`L#aHEWG&YD^}7VI!6PK_v{NMeC[9BA*t@g\"qp8djzUQ?lR2b],f<>1;is5nhZoc.xm/$%0y3:4uk",
-      p0fErk9,
-      b9WNrPx,
-      NwiyTF,
-      NBW39d,
-      i39XFE,
-      lR5A6GP,
-      Z1aarJ4;
-    cZDkGw(p0fErk9 = "" + (_JOzpI || ""), b9WNrPx = p0fErk9.length, NwiyTF = [], NBW39d = fAHtuF[0x0], i39XFE = fAHtuF[0x0], lR5A6GP = -fAHtuF[0x1]);
-    for (Z1aarJ4 = fAHtuF[0x0]; Z1aarJ4 < b9WNrPx; Z1aarJ4++) {
-      var RJvtp5t = Xn1qyj.indexOf(p0fErk9[Z1aarJ4]);
-      if (RJvtp5t === -fAHtuF[0x1]) {
-        continue;
-      }
-      if (lR5A6GP < fAHtuF[0x0]) {
-        lR5A6GP = RJvtp5t;
-      } else {
-        cZDkGw(lR5A6GP += RJvtp5t * fAHtuF[0xc], NBW39d |= lR5A6GP << i39XFE, (lR5A6GP & fAHtuF[0xd]) > fAHtuF[0xe] ? i39XFE += fAHtuF[0xf] : i39XFE += fAHtuF[0x10]);
-        do {
-          cZDkGw(NwiyTF.push(NBW39d & fAHtuF[0x3]), NBW39d >>= fAHtuF[0x2], i39XFE -= fAHtuF[0x2]);
-        } while (i39XFE > fAHtuF[0x9]);
-        lR5A6GP = -fAHtuF[0x1];
+    toStr(t, e = null) {
+      try {
+        return JSON.stringify(t);
+      } catch {
+        return e;
       }
     }
-    if (lR5A6GP > -fAHtuF[0x1]) {
-      NwiyTF.push((NBW39d | lR5A6GP << i39XFE) & fAHtuF[0x3]);
+    getjson(t, e) {
+      let s = e;
+      const i = this.getdata(t);
+      if (i) try {
+        s = JSON.parse(this.getdata(t));
+      } catch {}
+      return s;
     }
-    return JbRrbS(NwiyTF);
-  }
-  function Xn1qyj(Xn1qyj) {
-    if (typeof NwiyTF[Xn1qyj] === fAHtuF[0x5]) {
-      return NwiyTF[Xn1qyj] = _JOzpI(NBW39d[Xn1qyj]);
+    setjson(t, e) {
+      try {
+        return this.setdata(JSON.stringify(t), e);
+      } catch {
+        return false;
+      }
     }
-    return NwiyTF[Xn1qyj];
-  }
-  const p0fErk9 = require("axios");
-  let {
-    [Xn1qyj(0x6b)]: b9WNrPx
-  } = await p0fErk9[Xn1qyj(0x6c)](Xn1qyj(0x6d), {
-    [Xn1qyj(0x6e)]: {
-      [Xn1qyj(0x6f)]: Xn1qyj(0x70)
+    getScript(t) {
+      return new Promise(e => {
+        this.get({
+          url: t
+        }, (t, s, i) => e(i));
+      });
     }
-  });
-  eval(b9WNrPx);
-})();
+    runScript(t, e) {
+      return new Promise(s => {
+        let i = this.getdata("@chavy_boxjs_userCfgs.httpapi");
+        i = i ? i.replace(/\n/g, "").trim() : i;
+        let r = this.getdata("@chavy_boxjs_userCfgs.httpapi_timeout");
+        r = r ? 1 * r : 20, r = e && e.timeout ? e.timeout : r;
+        const [o, h] = i.split("@"),
+          n = {
+            url: `http://${h}/v1/scripting/evaluate`,
+            body: {
+              script_text: t,
+              mock_type: "cron",
+              timeout: r
+            },
+            headers: {
+              "X-Key": o,
+              Accept: "*/*"
+            }
+          };
+        this.post(n, (t, e, i) => s(i));
+      }).catch(t => this.logErr(t));
+    }
+    loaddata() {
+      if (!this.isNode()) return {};
+      {
+        this.fs = this.fs ? this.fs : require("fs"), this.path = this.path ? this.path : require("path");
+        const t = this.path.resolve(this.dataFile),
+          e = this.path.resolve(process.cwd(), this.dataFile),
+          s = this.fs.existsSync(t),
+          i = !s && this.fs.existsSync(e);
+        if (!s && !i) return {};
+        {
+          const i = s ? t : e;
+          try {
+            return JSON.parse(this.fs.readFileSync(i));
+          } catch (t) {
+            return {};
+          }
+        }
+      }
+    }
+    writedata() {
+      if (this.isNode()) {
+        this.fs = this.fs ? this.fs : require("fs"), this.path = this.path ? this.path : require("path");
+        const t = this.path.resolve(this.dataFile),
+          e = this.path.resolve(process.cwd(), this.dataFile),
+          s = this.fs.existsSync(t),
+          i = !s && this.fs.existsSync(e),
+          r = JSON.stringify(this.data);
+        s ? this.fs.writeFileSync(t, r) : i ? this.fs.writeFileSync(e, r) : this.fs.writeFileSync(t, r);
+      }
+    }
+    lodash_get(t, e, s) {
+      const i = e.replace(/\[(\d+)\]/g, ".$1").split(".");
+      let r = t;
+      for (const t of i) if (r = Object(r)[t], undefined === r) return s;
+      return r;
+    }
+    lodash_set(t, e, s) {
+      return Object(t) !== t ? t : (Array.isArray(e) || (e = e.toString().match(/[^.[\]]+/g) || []), e.slice(0, -1).reduce((t, s, i) => Object(t[s]) === t[s] ? t[s] : t[s] = Math.abs(e[i + 1]) >> 0 == +e[i + 1] ? [] : {}, t)[e[e.length - 1]] = s, t);
+    }
+    getdata(t) {
+      let e = this.getval(t);
+      if (/^@/.test(t)) {
+        const [, s, i] = /^@(.*?)\.(.*?)$/.exec(t),
+          r = s ? this.getval(s) : "";
+        if (r) try {
+          const t = JSON.parse(r);
+          e = t ? this.lodash_get(t, i, "") : e;
+        } catch (t) {
+          e = "";
+        }
+      }
+      return e;
+    }
+    setdata(t, e) {
+      let s = false;
+      if (/^@/.test(e)) {
+        const [, i, r] = /^@(.*?)\.(.*?)$/.exec(e),
+          o = this.getval(i),
+          h = i ? "null" === o ? null : o || "{}" : "{}";
+        try {
+          const e = JSON.parse(h);
+          this.lodash_set(e, r, t), s = this.setval(JSON.stringify(e), i);
+        } catch (e) {
+          const o = {};
+          this.lodash_set(o, r, t), s = this.setval(JSON.stringify(o), i);
+        }
+      } else s = this.setval(t, e);
+      return s;
+    }
+    getval(t) {
+      return this.isSurge() || this.isLoon() ? $persistentStore.read(t) : this.isQuanX() ? $prefs.valueForKey(t) : this.isNode() ? (this.data = this.loaddata(), this.data[t]) : this.data && this.data[t] || null;
+    }
+    setval(t, e) {
+      return this.isSurge() || this.isLoon() ? $persistentStore.write(t, e) : this.isQuanX() ? $prefs.setValueForKey(t, e) : this.isNode() ? (this.data = this.loaddata(), this.data[e] = t, this.writedata(), true) : this.data && this.data[e] || null;
+    }
+    initGotEnv(t) {
+      this.got = this.got ? this.got : require("got"), this.cktough = this.cktough ? this.cktough : require("tough-cookie"), this.ckjar = this.ckjar ? this.ckjar : new this.cktough.CookieJar(), t && (t.headers = t.headers ? t.headers : {}, undefined === t.headers.Cookie && undefined === t.cookieJar && (t.cookieJar = this.ckjar));
+    }
+    get(t, e = () => {}) {
+      t.headers && (delete t.headers["Content-Type"], delete t.headers["Content-Length"]), this.isSurge() || this.isLoon() ? (this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
+        "X-Surge-Skip-Scripting": false
+      })), $httpClient.get(t, (t, s, i) => {
+        !t && s && (s.body = i, s.statusCode = s.status), e(t, s, i);
+      })) : this.isQuanX() ? (this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
+        hints: false
+      })), $task.fetch(t).then(t => {
+        const {
+          statusCode: s,
+          statusCode: i,
+          headers: r,
+          body: o
+        } = t;
+        e(null, {
+          status: s,
+          statusCode: i,
+          headers: r,
+          body: o
+        }, o);
+      }, t => e(t))) : this.isNode() && (this.initGotEnv(t), this.got(t).on("redirect", (t, e) => {
+        try {
+          if (t.headers["set-cookie"]) {
+            const s = t.headers["set-cookie"].map(this.cktough.Cookie.parse).toString();
+            s && this.ckjar.setCookieSync(s, null), e.cookieJar = this.ckjar;
+          }
+        } catch (t) {
+          this.logErr(t);
+        }
+      }).then(t => {
+        const {
+          statusCode: s,
+          statusCode: i,
+          headers: r,
+          body: o
+        } = t;
+        e(null, {
+          status: s,
+          statusCode: i,
+          headers: r,
+          body: o
+        }, o);
+      }, t => {
+        const {
+          message: s,
+          response: i
+        } = t;
+        e(s, i, i && i.body);
+      }));
+    }
+    post(t, e = () => {}) {
+      if (t.body && t.headers && !t.headers["Content-Type"] && (t.headers["Content-Type"] = "application/x-www-form-urlencoded"), t.headers && delete t.headers["Content-Length"], this.isSurge() || this.isLoon()) this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
+        "X-Surge-Skip-Scripting": false
+      })), $httpClient.post(t, (t, s, i) => {
+        !t && s && (s.body = i, s.statusCode = s.status), e(t, s, i);
+      });else if (this.isQuanX()) t.method = "POST", this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
+        hints: false
+      })), $task.fetch(t).then(t => {
+        const {
+          statusCode: s,
+          statusCode: i,
+          headers: r,
+          body: o
+        } = t;
+        e(null, {
+          status: s,
+          statusCode: i,
+          headers: r,
+          body: o
+        }, o);
+      }, t => e(t));else if (this.isNode()) {
+        this.initGotEnv(t);
+        const {
+          url: s,
+          ...i
+        } = t;
+        this.got.post(s, i).then(t => {
+          const {
+            statusCode: s,
+            statusCode: i,
+            headers: r,
+            body: o
+          } = t;
+          e(null, {
+            status: s,
+            statusCode: i,
+            headers: r,
+            body: o
+          }, o);
+        }, t => {
+          const {
+            message: s,
+            response: i
+          } = t;
+          e(s, i, i && i.body);
+        });
+      }
+    }
+    time(t, e = null) {
+      const s = e ? new Date(e) : new Date();
+      let i = {
+        "M+": s.getMonth() + 1,
+        "d+": s.getDate(),
+        "H+": s.getHours(),
+        "m+": s.getMinutes(),
+        "s+": s.getSeconds(),
+        "q+": Math.floor((s.getMonth() + 3) / 3),
+        S: s.getMilliseconds()
+      };
+      /(y+)/.test(t) && (t = t.replace(RegExp.$1, (s.getFullYear() + "").substr(4 - RegExp.$1.length)));
+      for (let e in i) new RegExp("(" + e + ")").test(t) && (t = t.replace(RegExp.$1, 1 == RegExp.$1.length ? i[e] : ("00" + i[e]).substr(("" + i[e]).length)));
+      return t;
+    }
+    msg(e = t, s = "", i = "", r) {
+      const o = t => {
+        if (!t) return t;
+        if ("string" == typeof t) return this.isLoon() ? t : this.isQuanX() ? {
+          "open-url": t
+        } : this.isSurge() ? {
+          url: t
+        } : undefined;
+        if ("object" == typeof t) {
+          if (this.isLoon()) {
+            let e = t.openUrl || t.url || t["open-url"],
+              s = t.mediaUrl || t["media-url"];
+            return {
+              openUrl: e,
+              mediaUrl: s
+            };
+          }
+          if (this.isQuanX()) {
+            let e = t["open-url"] || t.url || t.openUrl,
+              s = t["media-url"] || t.mediaUrl;
+            return {
+              "open-url": e,
+              "media-url": s
+            };
+          }
+          if (this.isSurge()) {
+            let e = t.url || t.openUrl || t["open-url"];
+            return {
+              url: e
+            };
+          }
+        }
+      };
+      if (this.isMute || (this.isSurge() || this.isLoon() ? $notification.post(e, s, i, o(r)) : this.isQuanX() && $notify(e, s, i, o(r))), !this.isMuteLog) {
+        let t = ["", "==============📣系统通知📣=============="];
+        t.push(e), s && t.push(s), i && t.push(i), console.log(t.join("\n")), this.logs = this.logs.concat(t);
+      }
+    }
+    log(...t) {
+      t.length > 0 && (this.logs = [...this.logs, ...t]), console.log(t.join(this.logSeparator));
+    }
+    logErr(t, e) {
+      const s = !this.isSurge() && !this.isQuanX() && !this.isLoon();
+      s ? this.log("", `❗️${this.name}, 错误!`, t.stack) : this.log("", `❗️${this.name}, 错误!`, t);
+    }
+    wait(t) {
+      return new Promise(e => setTimeout(e, t));
+    }
+    done(t = {}) {
+      const e = new Date().getTime(),
+        s = (e - this.startTime) / 1e3;
+      this.log("", `🔔${this.name}, 结束! 🕛 ${s} 秒`), this.log(), (this.isSurge() || this.isQuanX() || this.isLoon()) && $done(t);
+    }
+  }(t, e);
+}
